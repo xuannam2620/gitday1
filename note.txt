@@ -1,0 +1,10 @@
+﻿git status -s // không hiển thị thông tin giải thích
+git status -b // hiển thị thông tin branch 
+git add -u // chỉ add những file đã commit trước đó. 
+git checkout --<file> // phục hồi lại file đã chỉnh sửa trong index.
+git branch -m <old> <new> // đổi tên branch 
+git branch -d <branch_name> // xoá branch 
+git branch -D <branch_name> // xoá branch chưa commit vào HEAD 
+git merge <branch_name>
+
+git commit --amend 
